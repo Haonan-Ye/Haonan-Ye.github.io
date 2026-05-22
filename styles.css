@@ -299,7 +299,7 @@ p {
 
 .personal-inner {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(280px, 420px);
+  grid-template-columns: minmax(0, 0.9fr) minmax(260px, 360px);
   align-items: start;
   gap: 64px;
 }
