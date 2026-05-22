@@ -177,6 +177,88 @@ p {
   margin: 0;
 }
 
+.home-spaced {
+  margin-top: 18px;
+}
+
+.profile-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.linkedin-link,
+.scholar-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  color: #ffffff;
+  background: var(--accent-dark);
+  text-decoration: none;
+}
+
+.linkedin-link {
+  border-radius: 3px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.scholar-link {
+  background: #f1f3f4;
+  border-radius: 50%;
+}
+
+.google-g {
+  position: relative;
+  display: block;
+  width: 17px;
+  height: 20px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.google-g span {
+  position: absolute;
+  inset: 0;
+}
+
+.g-blue {
+  color: #4285f4;
+}
+
+.g-red {
+  color: #ea4335;
+  clip-path: polygon(38% 0, 100% 0, 100% 45%, 38% 45%);
+}
+
+.g-yellow {
+  color: #fbbc05;
+  clip-path: polygon(38% 45%, 100% 45%, 100% 72%, 38% 72%);
+}
+
+.g-green {
+  color: #34a853;
+  clip-path: polygon(38% 72%, 100% 72%, 100% 100%, 38% 100%);
+}
+
+.linkedin-link:hover {
+  color: #ffffff;
+  background: var(--accent);
+  text-decoration: none;
+}
+
+.scholar-link:hover {
+  background: #e8eaed;
+  text-decoration: none;
+}
+
 .portrait,
 .cat-photo {
   margin: 0;
